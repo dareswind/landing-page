@@ -29,14 +29,22 @@ nav{
 
 ul{
     display: flex;
-    gap: 35px;
+    justify-content: space-evenly;
+    gap: 95px;
     list-style: none;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid rgb(249, 245, 245);
 }
 
 a{
     text-decoration: none;
     color: #e5e7eb;
+    font-size: 23px;
+    border: 1px solid rgb(249, 245, 245);
 }
+
+
 
 .dive-in{
     display: flex;
@@ -68,6 +76,13 @@ a{
     /* border: 1px solid rgb(179, 224, 31); */
 }
 
+.placename {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-top: 15px;
+}
+
 .visit .lets-go{
     font-size: 48px;
     font-weight: 900;
@@ -79,6 +94,15 @@ a{
     color: #e5e7eb;
 }
 
+.navi-but a:hover{
+    /* background-color: rgb(219, 160, 24); */
+    color: rgb(219, 160, 24);
+    font-size: 23px;
+    /* border-radius: 8px; */
+    /* padding: 20px; */
+
+}
+
 .visit button{
     font-size: 18px;
     width: 160px;
@@ -86,6 +110,11 @@ a{
     border-radius: 15px;
     color: white;
     background-color: #3882f6;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(4, 4, 117)
 }
 
 /* Style Top Section */
@@ -108,6 +137,13 @@ a{
     text-align: left;
     border-radius: 15px;
 }
+
+/* .snapshot {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */
 
 .portrait{
     border-radius: 15px;
